@@ -28,7 +28,7 @@ Branches are basically your own copy of the website that you can work on without
 
 Once you're on the repository page, you'll want to click on the dropdown that likely says "main". Then you'll want to type the name of your new branch in the text dropdown that appears. There's no hard and fast rule on what to name it, but try to describe the change you are trying to make (for example, the branch used to write this page was named "write-contribute-page"). Once you've typed your name, click on the "create branch: your-branch-name 'from main'" button that appears. See the image below for an example: 
 
-**TODO: ADD AN IMAGE HERE**
+![Creating a feature branch](/images/contribute-create-branch.png)
 
 As long as you are making changes that belong in this "feature", you should make sure that you are working in this branch. To do this, make sure the dropdown now says the name of your branch where it used to say "main". If it doesn't, click the dropdown and search for your branch. It should appear in the menu. Don't create a new one if you've already made one! Once you click on it you will switch to that branch and you will be ready to make changes. 
 
@@ -36,7 +36,7 @@ As long as you are making changes that belong in this "feature", you should make
 
 Most changes will be made in the "pages" folder. First go to the repository page and make sure you're in the feature branch you created earlier. Then look at the list in the middle of the page. There should be an entry there called "pages" with a blue folder icon to the left of it. Click on it to move into the pages folder. 
 
-**TODO: ADD AN IMAGE HERE**
+![Navigating to the pages folder](/images/contribute-pages-folder.png)
 
 What you need to do next depends on whether you're trying to create a new page or edit an existing one. Note that you can do both, and usually you will (for example, to create a new page and link to it from an existing one). See the appropriate header below: 
 
@@ -44,7 +44,7 @@ What you need to do next depends on whether you're trying to create a new page o
 
 Once you're in the "pages" folder, you should click on the "add file" dropdown. You can either choose "create a new file" to write your text online, or you can choose "upload files" if you've already written the content you want to post on your own computer (don't do this without first looking at step 5, below). In any case, the file needs to end with a ".markdown" extension, not ".txt" or ".html". Again, there's no real rules on how to name files, but name it something relevant to what it's about. 
 
-**TODO: ADD AN IMAGE HERE**
+![Creating a new page](/images/contribute-add-file.png)
 
 If you choose to create a new file, you'll be taken to the online markdown editor. Type in a file name and the following header: 
 ```
@@ -60,7 +60,7 @@ Don't forget the three dashes at the top and bottom of the header - they're very
 
 Editing an existing page is only slightly easier than creating a new one. Once you're in the "pages" folder, find the page you want to edit in the list of files. Click on it and you'll see a preview of what the file looks like now. Click the edit button (it looks like a pencil) in the top-right corner of the preview to go to the online markdown editor. 
 
-**TODO: ADD AN IMAGE HERE**
+![Where to find the edit button](/images/contribute-edit-button.png)
 
 Once you've done that, you should see that you're able to edit the file contents. Proceed to step 5. 
 
@@ -74,7 +74,7 @@ Write your ancient wisdom in markdown. You can click the "Preview changes" tab t
 
 When you are done, scroll to the bottom of the editor page. Type a short description of the changes you made in the textbox just under "commit changes". You can write an extended description if you feel like more than a sentence is necessary for others to understand what you did. When you're done, click the green "Commit changes" button to save your work. 
 
-**TODO: ADD AN IMAGE HERE**
+![Committing your changes](/images/contribute-commit.png)
 
 ## Step 6: Merge your changes
 
