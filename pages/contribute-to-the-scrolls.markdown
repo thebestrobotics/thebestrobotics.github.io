@@ -12,8 +12,6 @@ THE Scrolls are supposed to retain all of the knowledge acquired by THE over the
 4. Find or create a page
 5. Write some ancient wisdom
 6. Merge your changes
-7. View your changes live
-8. Delete the feature branch
 
 ## Step 1: Create a Github account
 This is the easiest step of all of them. Head over to [github.com](https://github.com) and create an account. It's free and only takes a few minutes. 
@@ -54,7 +52,7 @@ title: Name here
 permalink: /link-here/
 ---
 ```
-Don't forget the three dashes at the top and bottom of the header - they're very important. Replace "Name here" with a nice name for your page and "link-here" with a nice name to link to your page. Make sure these don't conflict with other pages already on the site. Once you've done that, you can proceed to step 5. 
+Don't forget the three dashes at the top and bottom of the header - they're very important. Replace "Name here" with a nice name for your page and "link-here" with the link to your page. Make sure these don't conflict with other pages already on the site. Once you've done that, you can proceed to step 5. 
 
 ### Edit an existing page
 
@@ -76,6 +74,36 @@ When you are done, scroll to the bottom of the editor page. Type a short descrip
 
 ![Committing your changes](/images/contribute-commit.png)
 
+NOTE: The theme we are using automatically adds a header with the page title at the top. So don't put one in your pages - I've done this before and it looks really stupid. 
+
+### Side note - Adding images
+
+Images that belong on your page should be uploaded in the /images folder. To do this, go to the main repository folder, make sure you're on the right branch, and click on the "images" folder, which is in the same location as the pages folder. Click the "add file" button just like we did in step 4, then add your images. Give them recognizable names - "Untitled.png" doesn't count! 
+
+Images can be inserted into your markdown like this: 
+```
+![Describe your image here](/images/your-image-name.png)
+```
+Replace "your-image-name.png" with the name of the image you uploaded. Most usual image formats are ok - if it shows up in the preview of your markdown then it's fine. 
+
 ## Step 6: Merge your changes
 
-**Not completed**
+To finish up you'll need to make and merge a pull request. Go back to the main repository page (or any folder - you should be able to do this immediately after committing changes). Then click on the pull request button, as shown in the screenshot below: 
+
+![Opening a pull request](/images/contribute-pull-request.png)
+
+That will take you to a fairly simple screen where you can review the changes you've made and leave a comment about what was changed. When you've done that, click the green "create pull request" button to make your request. 
+
+Next you'll have to approve the request. You should be taken to a page that looks like the screenshot below (if not, just click on the "Pull requests" tab on the main repository page). Find your pull request and click on the green "Merge pull request" button, then click "Confirm merge"
+
+![Merging a pull request](/images/contribute-merge-request.png)
+
+NOTE: You should see a message that says the branches can be merged automatically, like in the screenshot above. If you instead see a message that indicates there are conflicts, you probably changed a file that someone else also changed or uploaded a file with the same name as someone else. It shouldn't be a big deal, but please contact a coach before proceeding with the merge. 
+
+Once you've done this, a grey button that says "Delete branch" should appear in place of the confirm button. Click that button. Don't worry, it won't undo your changes. It just keeps things clean since the changes have already been safely merged with the main branch and are now stored there. 
+
+## You're done!
+
+Once you've merged your changes, they should go live within half an hour (or quicker, especially if you were just creating new material). Visit [the site](https://thebestrobotics.github.io) to see your changes take effect. Be patient - there is a cache in front of the site that can take some time to update if you changed an existing page. 
+
+Thank you for helping us preserve our experience for future generations of our team. 
