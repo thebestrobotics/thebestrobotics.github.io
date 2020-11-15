@@ -1,0 +1,13 @@
+entries:
+- title: sidebar
+  product: THE Scrolls
+  folders:
+  - title: THE Scrolls
+    output: web
+    folderitems:
+    - title: Home
+      url: /index
+      output: web
+    - title: Contribute to THE Scrolls
+      url: /contribute-to-the-scrolls
+      output: web
