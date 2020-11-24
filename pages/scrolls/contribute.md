@@ -4,6 +4,7 @@ title: Contribute to THE Scrolls
 permalink: contribute-to-the-scrolls
 keywords: contribute, write, markdown
 sidebar: default_sidebar
+categories: sidebar_scrolls
 toc: true
 ---
 
