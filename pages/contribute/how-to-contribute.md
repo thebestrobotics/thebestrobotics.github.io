@@ -32,7 +32,7 @@ Branches are basically your own copy of the website that you can work on without
 
 Once you're on the repository page, you'll want to click on the dropdown that likely says "main". Then you'll want to type the name of your new branch in the text dropdown that appears. There's no hard and fast rule on what to name it, but try to describe the change you are trying to make (for example, the branch used to write this page was named "write-contribute-page"). Once you've typed your name, click on the "create branch: your-branch-name 'from main'" button that appears. See the image below for an example: 
 
-![Creating a feature branch](/images/contribute-create-branch.png)
+![Creating a feature branch](/images/contribute/how-to-contribute/create-branch.png)
 
 As long as you are making changes that belong in this "feature", you should make sure that you are working in this branch. To do this, make sure the dropdown now says the name of your branch where it used to say "main". If it doesn't, click the dropdown and search for your branch. It should appear in the menu. Don't create a new one if you've already made one! Once you click on it you will switch to that branch and you will be ready to make changes. 
 
@@ -40,7 +40,7 @@ As long as you are making changes that belong in this "feature", you should make
 
 Most changes will be made in the "pages" folder. First go to the repository page and make sure you're in the feature branch you created earlier. Then look at the list in the middle of the page. There should be an entry there called "pages" with a blue folder icon to the left of it. Click on it to move into the pages folder. 
 
-![Navigating to the pages folder](/images/contribute-pages-folder.png)
+![Navigating to the pages folder](/images/contribute/how-to-contribute/pages-folder.png)
 
 The pages folder is organized into subfolders for convenience. Try to put your page in the folder that seems most appropriate. If you need to create a new folder, just append the folder path to the beginning of your filename (so to create a file named "example.md" in a folder named "test", you would name your file "test/example.md". 
 
@@ -50,7 +50,7 @@ What you need to do next depends on whether you're trying to create a new page o
 
 Once you're in the "pages" folder, you should click on the "add file" dropdown. You can either choose "create a new file" to write your text online, or you can choose "upload files" if you've already written the content you want to post on your own computer (don't do this without first looking at step 5, below). In any case, the file needs to end with a ".markdown" extension, not ".txt" or ".html". Again, there's no real rules on how to name files, but name it something relevant to what it's about. 
 
-![Creating a new page](/images/contribute-add-file.png)
+![Creating a new page](/images/contribute/how-to-contribute/add-file.png)
 
 If you choose to create a new file, you'll be taken to the online markdown editor. Type in a file name and the following header: 
 ```
@@ -75,7 +75,7 @@ Now you can proceed to step 5.
 
 Editing an existing page is only slightly easier than creating a new one. Once you're in the "pages" folder, find the page you want to edit in the list of files. Click on it and you'll see a preview of what the file looks like now. Click the edit button (it looks like a pencil) in the top-right corner of the preview to go to the online markdown editor. 
 
-![Where to find the edit button](/images/contribute-edit-button.png)
+![Where to find the edit button](/images/contribute/how-to-contribute/edit-button.png)
 
 Once you've done that, you should see that you're able to edit the file contents. Proceed to step 5. 
 
@@ -89,7 +89,7 @@ Write your ancient wisdom in markdown. You can click the "Preview changes" tab t
 
 When you are done, scroll to the bottom of the editor page. Type a short description of the changes you made in the textbox just under "commit changes". You can write an extended description if you feel like more than a sentence is necessary for others to understand what you did. When you're done, click the green "Commit changes" button to save your work. 
 
-![Committing your changes](/images/contribute-commit.png)
+![Committing your changes](/images/contribute/how-to-contribute/commit.png)
 
 NOTE: The theme we are using automatically adds a header with the page title at the top. So don't put one in your pages - I've done this before and it looks really stupid. 
 
@@ -97,9 +97,11 @@ NOTE: The theme we are using automatically adds a header with the page title at 
 
 Images that belong on your page should be uploaded in the /images folder. To do this, go to the main repository folder, make sure you're on the right branch, and click on the "images" folder, which is in the same location as the pages folder. Click the "add file" button just like we did in step 4, then add your images. Give them recognizable names - "Untitled.png" doesn't count! 
 
+Note that the "images" folder structure mirrors the "pages" folder structure. So if the file for your page is found under the path "pages/original-trilogy/return-of-the-jedi.md" and your image was "luke-skywalker.png", your image would be under "images/original-trilogy/return-of-the-jedi/luke-skywalker.png". 
+
 Images can be inserted into your markdown like this: 
 ```
-![Describe your image here](/images/your-image-name.png)
+![Describe your image here](/images/page-folder/page-name/your-image-name.png)
 ```
 Replace "your-image-name.png" with the name of the image you uploaded. Most usual image formats are ok - if it shows up in the preview of your markdown then it's fine. 
 
@@ -107,13 +109,13 @@ Replace "your-image-name.png" with the name of the image you uploaded. Most usua
 
 To finish up you'll need to make and merge a pull request. Go back to the main repository page (or any folder - you should be able to do this immediately after committing changes). Then click on the pull request button, as shown in the screenshot below: 
 
-![Opening a pull request](/images/contribute-pull-request.png)
+![Opening a pull request](/images/contribute/how-to-contribute/pull-request.png)
 
 That will take you to a fairly simple screen where you can review the changes you've made and leave a comment about what was changed. When you've done that, click the green "create pull request" button to make your request. 
 
 Next you'll have to approve the request. You should be taken to a page that looks like the screenshot below (if not, just click on the "Pull requests" tab on the main repository page). Find your pull request and click on the green "Merge pull request" button, then click "Confirm merge"
 
-![Merging a pull request](/images/contribute-merge-request.png)
+![Merging a pull request](/images/contribute/how-to-contribute/merge-request.png)
 
 NOTE: You should see a message that says the branches can be merged automatically, like in the screenshot above. If you instead see a message that indicates there are conflicts, you probably changed a file that someone else also changed or uploaded a file with the same name as someone else. It shouldn't be a big deal, but please contact a coach before proceeding with the merge. 
 
