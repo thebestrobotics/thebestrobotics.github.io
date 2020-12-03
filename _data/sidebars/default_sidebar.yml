@@ -8,6 +8,16 @@ entries:
     - title: Home
       url: /index
       output: web
-    - title: Contribute to THE Scrolls
-      url: /contribute-to-the-scrolls
-      output: web
+      subfolders:
+      - title: Contribute to THE Scrolls
+        output: web
+        subfolderitems:
+        - title: How to Contribute
+          url: /how-to-contribute
+          output: web
+        - title: Sidebar Category List
+          url: /sidebar-category-list
+          output: web
+        - title: Advanced Editing
+          url: /advanced-editing
+          output: web

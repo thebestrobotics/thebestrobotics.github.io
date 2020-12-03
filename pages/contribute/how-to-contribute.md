@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Contribute to THE Scrolls
-permalink: contribute-to-the-scrolls
-keywords: contribute, write, markdown
+title: How to Contribute
+permalink: how-to-contribute
+keywords: contribute, write, markdown, tutorial
 sidebar: default_sidebar
-categories: sidebar_scrolls
+categories: [contribute, tutorial]
 toc: true
 ---
 
@@ -28,7 +28,7 @@ Now, you need to email us at [robotics@texomahomeeducators.org](mailto:robotics@
 ## Step 3: Create a feature branch
 Once you've accepted the invitation to the repository, you can visit it by going to [the repository page on Github](https://github.com/thebestrobotics/thebestrobotics.github.io). Once you're there, you will need to create a feature branch to push your changes. 
 
-Branches are basically your own copy of the website that you can work on without worrying that anyone will overwrite your changes. Once you're done writing, you'll be able to take the changes you've made in this isolated workspace and merge them back in to the primary branch (called main). You should create a new branch for every 
+Branches are basically your own copy of the website that you can work on without worrying that anyone will overwrite your changes. Once you're done writing, you'll be able to take the changes you've made in this isolated workspace and merge them back in to the primary branch (called main). You should create a new branch for every change you make. 
 
 Once you're on the repository page, you'll want to click on the dropdown that likely says "main". Then you'll want to type the name of your new branch in the text dropdown that appears. There's no hard and fast rule on what to name it, but try to describe the change you are trying to make (for example, the branch used to write this page was named "write-contribute-page"). Once you've typed your name, click on the "create branch: your-branch-name 'from main'" button that appears. See the image below for an example: 
 
@@ -41,6 +41,8 @@ As long as you are making changes that belong in this "feature", you should make
 Most changes will be made in the "pages" folder. First go to the repository page and make sure you're in the feature branch you created earlier. Then look at the list in the middle of the page. There should be an entry there called "pages" with a blue folder icon to the left of it. Click on it to move into the pages folder. 
 
 ![Navigating to the pages folder](/images/contribute-pages-folder.png)
+
+The pages folder is organized into subfolders for convenience. Try to put your page in the folder that seems most appropriate. If you need to create a new folder, just append the folder path to the beginning of your filename (so to create a file named "example.md" in a folder named "test", you would name your file "test/example.md". 
 
 What you need to do next depends on whether you're trying to create a new page or edit an existing one. Note that you can do both, and usually you will (for example, to create a new page and link to it from an existing one). See the appropriate header below: 
 
@@ -56,9 +58,18 @@ If you choose to create a new file, you'll be taken to the online markdown edito
 layout: page
 title: Name here
 permalink: /link-here/
+sidebar: default_sidebar
+toc: true
+categories: [category1, category2]
 ---
 ```
-Don't forget the three dashes at the top and bottom of the header - they're very important. Replace "Name here" with a nice name for your page and "link-here" with the link to your page. Make sure these don't conflict with other pages already on the site. Once you've done that, you can proceed to step 5. 
+Don't forget the three dashes at the top and bottom of the header - they're very important. Replace "Name here" with a nice name for your page and "link-here" with the link to your page. Make sure these don't conflict with other pages already on the site. 
+
+The line "toc: true" means that Jekyll will automatically generate a table of contents for your article. If you don't want one for some reason (for example, if your article is very simple and has only one header), feel free to change it to "toc: false". 
+
+Change "category1" and "category2" to a list of categories that you want your article to be in. This isn't too important, but you will need to add at least one category if you want your page to show up on the sidebar. See [this page](/sidebar-category-list) for a list of categories corresponding to sidebar sections. 
+
+Now you can proceed to step 5. 
 
 ### Edit an existing page
 
@@ -111,5 +122,7 @@ Once you've done this, a grey button that says "Delete branch" should appear in 
 ## You're done!
 
 Once you've merged your changes, they should go live within half an hour (or quicker, especially if you were just creating new material). Visit [the site](https://thebestrobotics.github.io) to see your changes take effect. Be patient - there is a cache in front of the site that can take some time to update if you changed an existing page. 
+
+If you need to do something more advanced than what's described here, make sure to check out the [advanced editing information](/advanced-editing). It's more technical but includes more information about how to modify the site in different ways, as well as how to edit locally and see your changes in real time. 
 
 Thank you for helping us preserve our experience for future generations of our team. 

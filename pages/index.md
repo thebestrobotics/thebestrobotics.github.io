@@ -4,7 +4,6 @@ title: "THE Scrolls of Ancient Knowledge"
 permalink: index
 keywords: home homepage welcome
 sidebar: default_sidebar
-categories: sidebar_scrolls
 toc: false
 ---
 
