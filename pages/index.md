@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "THE Scrolls of Ancient Knowledge"
-permalink: index
+permalink: /
 keywords: home homepage welcome
 sidebar: default_sidebar
 toc: false
