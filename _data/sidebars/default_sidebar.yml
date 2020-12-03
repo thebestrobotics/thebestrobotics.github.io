@@ -18,3 +18,6 @@ entries:
         - title: Sidebar Category List
           url: /sidebar-category-list
           output: web
+        - title: Advanced Editing
+          url: /advanced-editing
+          output: web

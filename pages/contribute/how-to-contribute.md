@@ -123,4 +123,6 @@ Once you've done this, a grey button that says "Delete branch" should appear in 
 
 Once you've merged your changes, they should go live within half an hour (or quicker, especially if you were just creating new material). Visit [the site](https://thebestrobotics.github.io) to see your changes take effect. Be patient - there is a cache in front of the site that can take some time to update if you changed an existing page. 
 
+If you need to do something more advanced than what's described here, make sure to check out the [advanced editing information](/advanced-editing). It's more technical but includes more information about how to modify the site in different ways, as well as how to edit locally and see your changes in real time. 
+
 Thank you for helping us preserve our experience for future generations of our team. 
